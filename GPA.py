@@ -9,12 +9,9 @@ def calculate_gpa():
         print(f"\nSubject {i}:")
         credits = int(input("Enter the credit hours: "))
         grade_point = float(input("Enter the grade point "))
-       
-        
         
         total_credits += credits
         total_grade_points += grade_point * credits
-    
     
     if total_credits == 0:
         print("Total credits cannot be zero!")
